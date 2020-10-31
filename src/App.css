@@ -49,6 +49,28 @@ body {
   margin-top: 1rem;
 }
 
+.app__right{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .MuiCardContent-root{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.app__right .MuiCardContent-root .app__information{ 
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.app__graph{
+  flex-grow: 1;
+}
+
+
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
